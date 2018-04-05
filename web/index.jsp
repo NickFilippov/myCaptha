@@ -17,29 +17,29 @@
 </head>
 <body>
 <h2>Выберите картинку с тегом АПЕЛЬСИН </h2>
-<div class="items">
-    <div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(0).getImage()}"
-                                                       onclick="selectItem(0);"></div>
-    <div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(1).getImage()}"
-                                                       onclick="selectItem(1);"></div>
-    <div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(2).getImage()}"
-                                                       onclick="selectItem(2);"></div>
-    <div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(3).getImage()}"
-                                                       onclick="selectItem(3);"></div>
-    <div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(4).getImage()}"
-                                                       onclick="selectItem(4);"></div>
-    <div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(5).getImage()}"
-                                                       onclick="selectItem(5);"></div>
-    <div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(6).getImage()}"
-                                                       onclick="selectItem(6);"></div>
-    <div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(7).getImage()}"
-                                                       onclick="selectItem(7);"></div>
-    <div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(8).getImage()}"
-                                                       onclick="selectItem(8);"></div>
-</div>
-<center>
-    <button type="submit" onclick="submitArray();">Oтправить</button>
-</center>
+<%--<div class="items">--%>
+    <%--<div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(0).getImage()}"--%>
+                                                       <%--onclick="selectItem(0);"></div>--%>
+    <%--<div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(1).getImage()}"--%>
+                                                       <%--onclick="selectItem(1);"></div>--%>
+    <%--<div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(2).getImage()}"--%>
+                                                       <%--onclick="selectItem(2);"></div>--%>
+    <%--<div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(3).getImage()}"--%>
+                                                       <%--onclick="selectItem(3);"></div>--%>
+    <%--<div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(4).getImage()}"--%>
+                                                       <%--onclick="selectItem(4);"></div>--%>
+    <%--<div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(5).getImage()}"--%>
+                                                       <%--onclick="selectItem(5);"></div>--%>
+    <%--<div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(6).getImage()}"--%>
+                                                       <%--onclick="selectItem(6);"></div>--%>
+    <%--<div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(7).getImage()}"--%>
+                                                       <%--onclick="selectItem(7);"></div>--%>
+    <%--<div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(8).getImage()}"--%>
+                                                       <%--onclick="selectItem(8);"></div>--%>
+<%--</div>--%>
+<%--<center>--%>
+    <%--<button type="submit" onclick="submitArray();">Oтправить</button>--%>
+<%--</center>--%>
 <div id="res"></div>
 </body>
 </html>
