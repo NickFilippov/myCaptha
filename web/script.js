@@ -17,10 +17,9 @@ window.onload = function () {
         console.log("clecked");
         $.ajax({
             url: "/process",
-            dataType: "json",
-            data: 'arr=' + JSON.stringify(this.ar),
             error: function (message) {
                 console.log("err" + message.responseText);
+                console.log(message);
                 document.getElementById("res").innerHTML = message.responseText;
                 if (message.responseText === "OK") {
                     swal("Good job!", "You are human!", "success");

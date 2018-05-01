@@ -28,6 +28,13 @@ public class ProcessServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("servlet process");
+        response.getWriter().write("testTest");
+//        return;
+    }
+    protected void doGet2(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("servlet process");
+        response.getWriter().write("testTest");
+//        return;
         String arrString = request.getParameter("arr");
         String status ="not OK";
         double k = 0;
