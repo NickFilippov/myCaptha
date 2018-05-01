@@ -37,9 +37,9 @@
     <%--<div class="item" onclick="addOutline(this);"><img src="/resourse/${names.get(8).getImage()}"--%>
                                                        <%--onclick="selectItem(8);"></div>--%>
 <%--</div>--%>
-<center>
-    <button type="submit" onclick="submitArray(); return false;">Oтправить</button>
-</center>
+<%--<center>--%>
+    <%--<button type="submit" onclick="submitArray();">Oтправить</button>--%>
+<%--</center>--%>
 <div id="res"></div>
 </body>
 </html>
